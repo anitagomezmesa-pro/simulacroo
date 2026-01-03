@@ -1,0 +1,58 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.site-header {
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+}
+
+/* Lados */
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Botones íconos */
+.icon-button {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 6px 10px;
+}
+
+.icon-button:hover {
+  background: #f2f2f2;
+  border-radius: 6px;
+}
+
+/* Botón ingresar */
+.login-btn {
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  color: #007bff;
+  border: 1px solid transparent;
+  font-weight: 500;
+}
+
+.login-btn:hover {
+  background: #f0f6ff;
+  border-color: #007bff;
+}
